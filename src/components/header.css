@@ -1,0 +1,44 @@
+/*Header styles*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #494949;
+    color: #fff;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.left {
+    flex: 1;
+}
+
+.center {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    margin-right: 600px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+.head {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.head:hover {
+    color: #007bff;
+}

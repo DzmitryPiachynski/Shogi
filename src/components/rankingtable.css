@@ -1,0 +1,74 @@
+/* Styles for selector and table */
+.rankingCenter {
+    color: #94B8FF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.holder {
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.time-range-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.range {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: #494949;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.circle.selected {
+    background-color: black; /* Цвет кружочка при выборе */
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px black;
+    margin: 40px;
+    background-color: #494949;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    width: 580px; /* Ширина ячейки (по вашему выбору) */
+    height: 40px;
+}
+th {
+    color: black;
+}
+td {
+    color: #94B8FF;
+}
+
+/* Styles for empty lines */
+tbody tr:nth-child(even) {
+    background-color: #494949;
+}
