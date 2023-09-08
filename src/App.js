@@ -1,11 +1,12 @@
-import './styles.css';
 import Header from "./components/Header";
-import RankingTable from "./components/RankingTable";
+import Ranking from "./pages/Ranking/Ranking";
+import Links from "./pages/Links/Links";
 function App() {
   return (
       <div>
           <Header />
-          <RankingTable />
+          {/*<Ranking />*/}
+          <Links />
       </div>
   );
 }

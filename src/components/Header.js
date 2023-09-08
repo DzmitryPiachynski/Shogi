@@ -15,7 +15,8 @@ function Header() {
                 </nav>
             </div>
             <div className="right">
-                <h2 className="head">Account</h2>
+                <h2 className="head">Log in</h2>
+                <h2 className="head">Sign in</h2>
             </div>
         </header>
     );
