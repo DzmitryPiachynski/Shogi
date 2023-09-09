@@ -1,0 +1,31 @@
+.shogi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.shogi-background {
+    background-color: darkorange;
+    border: 5px solid black;
+    padding: 12px;
+}
+
+.shogi-board {
+    display: grid;
+    grid-template-columns: repeat(9, 50px); /* Разбиваем доску на 9 колонок шириной 50px каждая */
+    grid-gap: 2px; /* Пространство между ячейками */
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid black;
+    background-color: orange;
+}
