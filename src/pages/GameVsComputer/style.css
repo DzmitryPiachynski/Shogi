@@ -1,0 +1,51 @@
+.gvc-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-height: 800px;
+}
+.p-enemy {
+    background-color: darkorange;
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    align-self: start;
+    margin-top: 125px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.pieces {
+    background-color: darkorange;
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    margin-top: 185px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.buttons button {
+    background-color: #494949;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: #D36135;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.buttons button:hover {
+    background-color: #494949;
+    color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: -25px;
+}

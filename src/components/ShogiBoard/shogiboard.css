@@ -8,6 +8,7 @@
     background-color: darkorange;
     border: 5px solid black;
     padding: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .shogi-board {
