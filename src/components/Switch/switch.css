@@ -1,0 +1,53 @@
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 40px;
+    max-width: 200px;
+}
+.switch-container p {
+    font-size: 24px;
+}
+.switch-container button {
+    max-height: 34px;
+    max-width: 100px;
+}
+
+
+.switch-button {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.p-edit-switch-off,
+.p-play-switch-on  {
+    color: white;
+}
+
+.p-edit-switch-on,
+.p-play-switch-off  {
+    color: #94B8FF /* Здесь можно указать цвет для включенного состояния */
+}
+
+.switch-button::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    border-radius: 45%;
+    border: 3px solid black;
+    background-color: black;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.switch-on::before {
+    transform: translateX(60px); /* Сдвигаем круг вправо для включенного состояния */
+}
